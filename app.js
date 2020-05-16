@@ -39,6 +39,10 @@
 // });
 
 
+//error occurs because a math function returns a negative numer.  
+//this causes the catch to fire and stops the slowMath
+
+
 const doMath = async () => {
     try{
         let result = await slowMath.add(6,2);
